@@ -1,0 +1,28 @@
+.first-wrap {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.character-btn {
+  height: 100px;
+  width: 90px;
+  display: block;
+  overflow: hidden;
+}
+
+.character-img {
+  width: 100%;
+  height: auto;
+}
+
+.first-character,
+.second-character {
+  flex-grow: 1;
+  height: 400px;
+  flex-basis: auto;
+  align-self: flex-end;
+}

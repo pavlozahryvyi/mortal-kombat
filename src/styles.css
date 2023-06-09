@@ -1,0 +1,15 @@
+.app {
+  text-align: center;
+}
+
+.main-block {
+  width: 900px;
+  height: 900px;
+  background-image: url("./assets/game_bg.jpg");
+  background-position: center;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
