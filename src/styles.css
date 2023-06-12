@@ -3,7 +3,7 @@
 }
 
 .main-block {
-  width: 900px;
+  width: 1200px;
   height: 900px;
   background-image: url("./assets/game_bg.jpg");
   background-position: center;
@@ -11,5 +11,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
